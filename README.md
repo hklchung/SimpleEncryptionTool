@@ -10,3 +10,9 @@ However there are two key concepts of encryption as outlined by the GDPR, namely
 On the otherhand, pseudonymisation refers to the processing of personal data in such a way that the data can no longer be attributed to a specific data subject without the use of additional information. This typically refers to personal identifiable information that is stored in separation and can only be constituted as personal data when presented in conjunction with information that allows for the identification of a natural person.
 
 It is the goal of this project to create a novel methodology to encrypt personal data such that it can no longer be perceived as personal data by the GDPR.
+
+| Customer ID  | Name | Age | Salary |
+| ------------ | ---- | --- | ------ |
+| 1 | Bob | 30 | 15000 |
+| 2 | Tom | 24 | 12000 |
+| 3 | Ann | 44 | 23000 |
