@@ -34,3 +34,9 @@ We apply principal component analysis to compute eigenvectors of the covariance 
 | -1.66666216e+03 | 1.06829921e+01 | -2.38031816e-13 |
 | -4.66668575e+03 | -7.76943478e+00 | -2.27817765e-13 |
 | 6.33334791e+03 | -2.91355728e+00 | 4.67847983e-13 |
+
+The new data set can then be stored and transferred freely as non-personal data. To reverse the data set, one must have the 'key'.
+
+## Future updates
+- Automated parsing of string type columns
+- Packaging of 'encrypted data' with 'key'
