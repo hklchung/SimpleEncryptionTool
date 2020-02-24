@@ -1,5 +1,5 @@
 # SimpleEncryptionTool
-###A simple encryption tool
+## A simple encryption tool
 
 In this project, I would like to explore using Principal Component Analysis (PCA) to 'encrypt' dataset and creating 'keys' that would allow the 'encrypted data' to be 'decrypted'.
 
@@ -11,10 +11,26 @@ On the otherhand, pseudonymisation refers to the processing of personal data in 
 
 It is the goal of this project to create a novel methodology to encrypt personal data such that it can no longer be perceived as personal data by the GDPR.
 
-###Methodology overview
-First we need to transform all our data into numerical values. The only non-numerical data is the name, we will separate out the characters in the names and transform them according to their alphabetical orders, i.e. Bob → 2, 15, 2. (This can also be Ascii no.)
+## Methodology overview
+###### Original dataset
 | Customer ID  | Name | Age | Salary |
 | ------------ | ---- | --- | ------ |
 | 1 | Bob | 30 | 15000 |
 | 2 | Tom | 24 | 12000 |
 | 3 | Ann | 44 | 23000 |
+
+First we need to transform all our data into numerical values. The only non-numerical data is the name, we will separate out the characters in the names and transform them according to their alphabetical orders, i.e. Bob → 2, 15, 2. (This can also be Ascii no.)
+###### Transformed dataset
+| Customer ID  | Name_char1 | Name_char2 | Name_char3 | Age | Salary |
+| ------------ | ---------- | ---------- | ---------- | --- | ------ |
+| 1 | 2 | 15 | 2 | 30 | 15000 |
+| 2 | 20 | 15 | 13 | 24 | 12000 |
+| 3 | 1 | 14 | 14 | 44 | 23000 |
+
+We apply principal component analysis to compute eigenvectors of the covariance matrix. This will then result in ‘scrambled’ data.
+###### New dataset
+| C1  | C2 | C3 |
+| --- | -- | -- |
+| -1.66666216e+03 | 1.06829921e+01 | -2.38031816e-13 |
+| -4.66668575e+03 | -7.76943478e+00 | -2.27817765e-13 |
+| 6.33334791e+03 | -2.91355728e+00 | 4.67847983e-13 |
