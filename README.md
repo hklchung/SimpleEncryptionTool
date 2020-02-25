@@ -1,5 +1,5 @@
-# SimpleEncryptionTool
-## A simple encryption tool
+# Simple Encryption Tool
+## Introduction
 
 In this project, I would like to explore using Principal Component Analysis (PCA) to 'encrypt' dataset and creating 'keys' that would allow the 'encrypted data' to be 'decrypted'.
 
