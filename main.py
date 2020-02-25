@@ -8,6 +8,7 @@ Created on Mon Feb 24 21:48:47 2020
 # Import libraries
 import numpy as np
 import sklearn.decomposition
+np.set_printoptions(suppress=True)
 
 # Customer ID, Name_char1, Name_char2, Name_char3, Age, Salary
 X = np.array([[1, 2, 15, 2, 30, 15000], [2, 20, 15, 13, 24, 12000], [3, 1, 14, 14, 44, 23000]])
