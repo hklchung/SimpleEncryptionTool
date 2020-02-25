@@ -39,7 +39,7 @@ The new data set can then be stored and transferred freely as non-personal data.
 - 'mu', per-feature empirical mean that was estimated from the original dataset, and 
 - 'key', the principal axes in feature space, representing the directions of maximum variance in the data. The components are sorted by their explained variance.
 
-Imagine lauching nuclear missiles from a submarine, we need two keys to reverse the 'encrypted' data back to the original dataset. To do this, we use the following formula: encrypted data ⋅ Transpose(eigenvectors) + Mean, where Transpose(eigenvectors) = key and Mean = mu.
+Imagine lauching nuclear missiles from a submarine, we need two keys to reverse the 'encrypted' data back to the original dataset. To do this, we use the following formula: encrypted data ⋅ Transpose(eigenvectors) + Mean, where Transpose(eigenvectors) = key and Mean = mu. It is important to note that any slight changes to key or mu will result in inability to reconstruct the original dataset. 
 
 ## Future updates
 - Automated parsing of string type columns
