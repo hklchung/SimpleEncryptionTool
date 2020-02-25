@@ -15,11 +15,11 @@ X = np.array([[1, 2, 15, 2, 30, 15000], [2, 20, 15, 13, 24, 12000], [3, 1, 14, 1
 
 # Function to encrypt numerical data set
 def sencrypt(X):
-    mu = np.mean(X, axis=0)
     pca = sklearn.decomposition.PCA()
     pca.fit(X)
     encrypted_X = pca.transform(X)
     key = pca.components_
+    mu = pca.mean_
     return encrypted_X, key, mu
 
 # Function to decrypt data set
