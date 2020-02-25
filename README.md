@@ -27,7 +27,7 @@ First we need to transform all our data into numerical values. The only non-nume
 | 2 | 20 | 15 | 13 | 24 | 12000 |
 | 3 | 1 | 14 | 14 | 44 | 23000 |
 
-We apply principal component analysis to compute eigenvectors of the covariance matrix. This will then result in ‘scrambled’ data.
+We apply principal component analysis to compute eigenvectors of the covariance matrix. This will then result in ‘scrambled’ data. In practice, this is the original dataset with 'dimensionality reduced' but without data loss as no. of PCs is identical to no. of columns in the original dataset.
 ###### New dataset
 | C1  | C2 | C3 |
 | --- | -- | -- |
@@ -35,7 +35,11 @@ We apply principal component analysis to compute eigenvectors of the covariance 
 | -4.66668575e+03 | -7.76943478e+00 | -2.27817765e-13 |
 | 6.33334791e+03 | -2.91355728e+00 | 4.67847983e-13 |
 
-The new data set can then be stored and transferred freely as non-personal data. To reverse the data set, one must have the 'key'.
+The new data set can then be stored and transferred freely as non-personal data. To reverse the data set, one must have the 'key'. The 'key' was created during dimensionality reduction and captured as
+- 'mu', per-feature empirical mean that was estimated from the original dataset, and 
+- 'key', the principal axes in feature space, representing the directions of maximum variance in the data. The components are sorted by their explained variance.
+
+Imagine lauching nuclear missiles from a submarine, we need two keys to reverse the 'encrypted' data back to the original dataset. To do this, we use the following formula: encrypted data ⋅ Transpose(eigenvectors) + Mean, where Transpose(eigenvectors) = key and Mean = mu.
 
 ## Future updates
 - Automated parsing of string type columns
