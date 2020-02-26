@@ -1,4 +1,5 @@
 # Simple Encryption Tool ![Key](https://media.istockphoto.com/vectors/hand-drawn-antique-key-sketch-style-of-vintage-key-on-white-old-vector-id895217258){:height="24px" width="48px"}
+<img src="https://media.istockphoto.com/vectors/hand-drawn-antique-key-sketch-style-of-vintage-key-on-white-old-vector-id895217258" height="24">
 ## Introduction
 
 In this project, I would like to explore using Principal Component Analysis (PCA) to 'encrypt' dataset and creating 'keys' that would allow the 'encrypted data' to be 'decrypted'.
