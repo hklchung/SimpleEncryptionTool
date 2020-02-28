@@ -1,4 +1,30 @@
-# Simple Encryption Tool <img src="https://media.istockphoto.com/vectors/hand-drawn-antique-key-sketch-style-of-vintage-key-on-white-old-vector-id895217258" height="24">
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/hklchung/SimpleEncryptionTool">
+    <img src="https://media.istockphoto.com/vectors/hand-drawn-antique-key-sketch-style-of-vintage-key-on-white-old-vector-id895217258" height="30">
+  </a>
+
+  <h3 align="center">SimpleEncryptionTool</h3>
+
+  <p align="center">
+  This is a small project where PCA is used for data encryption purposes. #dataencryption #dataprotection #gdpr #pdpo
+    <br />
+    <a href="https://github.com/hklchung/SimpleEncryptionTool"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/hklchung/SimpleEncryptionTool">View Demo</a>
+    ·
+    <a href="https://github.com/hklchung/SimpleEncryptionTool/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/hklchung/SimpleEncryptionTool/issues">Request Feature</a>
+  </p>
+</p>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -50,6 +76,18 @@ The new data set can then be stored and transferred freely as non-personal data.
 
 Imagine lauching nuclear missiles from a submarine, we need two keys to reverse the 'encrypted' data back to the original dataset. To do this, we use the following formula: encrypted data ⋅ Transpose(eigenvectors) + Mean, where Transpose(eigenvectors) = key and Mean = mu. It is important to note that any slight changes to key or mu will result in inability to reconstruct the original dataset. 
 
+<!-- FUTURE UPDATES -->
 ## Future updates
 - Automated parsing of string type columns
 - Packaging of 'encrypted data' with 'key'
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/hklchung/TravelPlanner.svg?style=flat-square
+[contributors-url]: https://github.com/hklchung/TravelPlanner/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/hklchung/TravelPlanner.svg?style=flat-square
+[forks-url]: https://github.com/hklchung/TravelPlanner/network/members
+[stars-shield]: https://img.shields.io/github/stars/hklchung/TravelPlanner.svg?style=flat-square
+[stars-url]: https://github.com/hklchung/TravelPlanner/stargazers
+[issues-shield]: https://img.shields.io/github/issues/hklchung/TravelPlanner.svg?style=flat-square
+[issues-url]: https://github.com/hklchung/TravelPlanner/issues
