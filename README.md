@@ -1,3 +1,8 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
 # Simple Encryption Tool <img src="https://media.istockphoto.com/vectors/hand-drawn-antique-key-sketch-style-of-vintage-key-on-white-old-vector-id895217258" height="24">
 ## Introduction
 
