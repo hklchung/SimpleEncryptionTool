@@ -1,10 +1,14 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
 # Simple Encryption Tool <img src="https://media.istockphoto.com/vectors/hand-drawn-antique-key-sketch-style-of-vintage-key-on-white-old-vector-id895217258" height="24">
-## Introduction
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+* [Methodology Overview](#methodology-overview)
+* [Future updates](#future-updates)
+
+<!-- ABOUT THE PROJECT -->
+## About the Project
 
 In this project, I would like to explore using Principal Component Analysis (PCA) to 'encrypt' dataset and creating 'keys' that would allow the 'encrypted data' to be 'decrypted'.
 
