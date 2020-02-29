@@ -83,11 +83,11 @@ Imagine lauching nuclear missiles from a submarine, we need two keys to reverse 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/hklchung/TravelPlanner.svg?style=flat-square
-[contributors-url]: https://github.com/hklchung/TravelPlanner/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/hklchung/TravelPlanner.svg?style=flat-square
-[forks-url]: https://github.com/hklchung/TravelPlanner/network/members
-[stars-shield]: https://img.shields.io/github/stars/hklchung/TravelPlanner.svg?style=flat-square
-[stars-url]: https://github.com/hklchung/TravelPlanner/stargazers
-[issues-shield]: https://img.shields.io/github/issues/hklchung/TravelPlanner.svg?style=flat-square
-[issues-url]: https://github.com/hklchung/TravelPlanner/issues
+[contributors-shield]: https://img.shields.io/github/contributors/hklchung/SimpleEncryptionTool.svg?style=flat-square
+[contributors-url]: https://github.com/hklchung/SimpleEncryptionTool/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/hklchung/SimpleEncryptionTool.svg?style=flat-square
+[forks-url]: https://github.com/hklchung/SimpleEncryptionTool/network/members
+[stars-shield]: https://img.shields.io/github/stars/hklchung/SimpleEncryptionTool.svg?style=flat-square
+[stars-url]: https://github.com/hklchung/SimpleEncryptionTool/stargazers
+[issues-shield]: https://img.shields.io/github/issues/hklchung/SimpleEncryptionTool.svg?style=flat-square
+[issues-url]: https://github.com/hklchung/SimpleEncryptionTool/issues
